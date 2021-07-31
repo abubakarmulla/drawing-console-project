@@ -44,9 +44,12 @@ butt =  [
     Button(10+60,but_y,50,50,RED),
     Button(10+(2*60),but_y,50,50,GREEN),
     Button(10+(3*60),but_y,50,50,BLUE),
-    Button(10+(4*60),but_y,50,50,LIGHT_BLACK),
-    Button(10+(5*60),but_y,50,50,WHITE,'Erase',BLACK),
-    Button(10+(6*60),but_y,50,50,WHITE,'Clr All',BLACK)
+    Button(10+(4*60),but_y,50,50,ORANGE),
+    Button(10+(5*60),but_y,50,50,YELLOW),
+    Button(10+(6*60),but_y,50,50,SKYBLUE),
+    Button(10+(7*60),but_y,50,50,PINK),
+    Button(10+(8*60),but_y,50,50,WHITE,'Erase',BLACK),
+    Button(10+(9*60),but_y,50,50,WHITE,'Clr All',BLACK)
 ]
 while run:
     clock.tick(FPS)
